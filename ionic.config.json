@@ -1,0 +1,7 @@
+{
+  "name": "frontend-library",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

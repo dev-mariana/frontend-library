@@ -1,0 +1,12 @@
+<ion-card class="card" *ngFor="let book of books">
+  <div class="content">
+    <ion-card-header>
+      <ion-card-title>{{ book?.title }}</ion-card-title>
+      <ion-card-subtitle>{{ book?.authors }}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-img [src]="book?.photo" *ngIf="book.photo"></ion-img>
+      <ion-img src="../../assets/book_lover.svg" alt="book" *ngIf="!book.photo"></ion-img>
+    </ion-card-content>
+  </div>
+</ion-card>

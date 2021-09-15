@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalhos do Livro</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="arrow-back-outline" color="primary"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-img [src]="book?.photo"></ion-img>
+
+    <h1>{{ book?.title }}</h1>
+    <p>{{ book?.description }}</p>
+    <p>{{ book?.authors }}</p>
+    <p>{{ book?.publisher }}</p>
+    <p>{{ book?.released_at }}</p>
+</ion-content>

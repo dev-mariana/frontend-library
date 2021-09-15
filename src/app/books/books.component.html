@@ -1,4 +1,4 @@
-<ion-card class="card" *ngFor="let book of books">
+<ion-card class="card" *ngFor="let book of books" (click)="goBook(book.id)">
   <div class="content">
     <ion-card-header>
       <ion-card-title>{{ book?.title }}</ion-card-title>

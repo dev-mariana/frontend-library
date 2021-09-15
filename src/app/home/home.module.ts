@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 
 import { HomePage } from './home.page';
 import { HomePageRoutingModule } from './home-routing.module';
-import { MessageComponentModule } from '../message/message.module';
 import { BooksModule } from '../books/books.module';
 
 @NgModule({
@@ -13,7 +12,6 @@ import { BooksModule } from '../books/books.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    MessageComponentModule,
     HomePageRoutingModule,
     BooksModule
   ],
